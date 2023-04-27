@@ -13,15 +13,41 @@
     <div class="container">
         
         <h1 class="display-1 text-center text-primary">Bootstrap Playground!</h1>
-        <h3 class="display-5">Buttons</h3>
-
+        <h3 class="display-5">Buttons <span class="badge text-bg-success">NEW</span></span></h3>
+        <button type="button" class="btn btn-primary">
+            Notifications <span class="badge text-bg-secondary">5</span>
+          </button>
         <button type="button" class="btn btn-primary">Primary</button>
         <button type="button" class="btn btn-success">Success</button>
         <button type="button" class="btn btn-info">Info</button>
         <button class="btn btn-outline-warning text-warning-emphasis btn-lg" disabled>Disabled Warning Outline</button>
         <button type="button" class="btn btn-outline-danger btn-sm">Danger Outline</button>
+        <hr>  
+        <h3>Button Groups</h3>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-warning">One</button>
+            <button type="button" class="btn btn-danger">Two</button>
+            <button type="button" class="btn btn-warning">Three</button>
+          </div>
+          <hr>
+          <h3>Alerts</h3>
+          <div class="alert alert-danger">
+            Danger! You are in !
+          </div>
+          <div class="alert alert-success">
+            You are Successfully logged in!
+          </div>
+
+          <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>Hello!</strong> You should check in on some of those fields below.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+
+          <hr>
 
         <h1 class="display-4">Typography</h1>
+        <span class="badge rounded-pill text-bg-dark">Dark</span>
+
 
         <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste error vero obcaecati non natus sit perferendis quos rerum qui accusamus dolores, sapiente mollitia quas ex aliquam suscipit fuga. Quas, voluptatum?
         Ex nemo necessitatibus accusantium, voluptatum nihil pariatur at magni quo esse modi. Praesentium doloremque ex veritatis, voluptatibus qui obcaecati fugiat delectus non laborum distinctio sunt est tempora, reprehenderit veniam reiciendis.
@@ -37,6 +63,7 @@
               Someone famous in <cite title="Source Title">Lorem Ipsum</cite>
             </figcaption>
           </figure>
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
